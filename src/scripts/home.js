@@ -12,7 +12,7 @@ export default function loadHome(){
     information_container.classList.add('information-container');
     
     content.appendChild(information_container);
-    content.classList.add('home-content');
+    content.className ='home-content';
 
     const information = document.createElement('div');
     const information_text = document.createElement('p');

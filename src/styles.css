@@ -22,9 +22,11 @@ header {
     height: 8.51vh;
     background-color: #D9D9D9;
 }
+
 header nav {
     margin-left: 3.1381vw;
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -42,6 +44,7 @@ footer {
     height: 29px;
     font-size: 14px;
 }
+
 h1 {
     margin-top: 11.2962vh;
     font-family: "Wellfleet", serif;
@@ -49,11 +52,14 @@ h1 {
     font-style: normal;
 }
 
-
 .home-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home-content h1 {
+    text-align: center;
 }
 
 .information-container {
@@ -82,7 +88,6 @@ h1 {
     margin: 30px;
 }
 
-
 .call-to-action {
     pointer-events: stroke;
     font-size: 18px;
@@ -95,21 +100,38 @@ h1 {
     width: 9.166vw;
     height: 5.83vh;
 }
+
 .call-to-action:hover{
     cursor: pointer;
 }
-#content {
-    display: flex;
-    flex-direction: column;
+
+.menu-content {
+    color: white;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     justify-content: center;
-}
-#content h1 {
-    text-align: center;
+    display: flex;
 }
 
 .menu {
-    background-color: blue;
-    width: 600px;
-    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 80vw;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+}
+li {
+    font-size: 30px;
+    gap: 200px;
+    justify-content: space-between;
+    display: flex;
 }
