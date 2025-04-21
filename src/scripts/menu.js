@@ -1,6 +1,9 @@
 const content = document.getElementById('content');
 
 export default function loadMenu(){
-    content.textContent = "menu aqui"
+    content.textContent = ""
 
+    const menu = document.createElement('div');
+    menu.classList.add('menu');
+    content.appendChild(menu);
 };

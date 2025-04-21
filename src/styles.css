@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wellfleet&display=swap');
+html, * {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     display: flex;
@@ -11,15 +15,16 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
     z-index: 1000;
     position: fixed;
     top: 0;
     width: 100%;
     height: 8.51vh;
-    background-color: #D9D9D9 ;
+    background-color: #D9D9D9;
 }
-
+header nav {
+    margin-left: 3.1381vw;
+}
 footer {
     display: flex;
     align-items: center;
@@ -31,13 +36,80 @@ footer {
     height: 8.51vh;
     background-color: #D9D9D9 ;
 }
-.photo {
-    width: 500px;
-    border-radius: 15px;
+
+.header-button {
+    width: 70px;
+    height: 29px;
+    font-size: 14px;
+}
+h1 {
+    margin-top: 11.2962vh;
+    font-family: "Wellfleet", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14.166vh;
+    width: 60.9375vw;
+    height: 40.51851vh;
+    gap: 30px;
+}
+
+.information {
+    color: white;
+    align-items: center;
+    background-color: black;
+    width: 31.25vw;
+    height: 27.59vh;
+}
+
+.information p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin: 30px;
+}
+
+
+.call-to-action {
+    pointer-events: stroke;
+    font-size: 18px;
+    font-family: "Wellfleet", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    width: 9.166vw;
+    height: 5.83vh;
+}
+.call-to-action:hover{
+    cursor: pointer;
+}
 #content {
-    width: 500px;
-    margin-left: 50%;
-    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content h1 {
+    text-align: center;
+}
+
+.menu {
+    background-color: blue;
+    width: 600px;
+    height: 600px;
 }
