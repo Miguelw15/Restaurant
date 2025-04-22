@@ -56,6 +56,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .home-content h1 {
@@ -66,8 +67,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14.166vh;
-    width: 60.9375vw;
+    margin-top: 10.166vh;
+    width: 80.9375vw;
     height: 40.51851vh;
     gap: 30px;
 }
@@ -76,8 +77,8 @@ h1 {
     color: white;
     align-items: center;
     background-color: black;
-    width: 31.25vw;
-    height: 27.59vh;
+    width: 60vw;
+    height: 30.59vh;
 }
 
 .information p {
@@ -134,4 +135,17 @@ li {
     gap: 200px;
     justify-content: space-between;
     display: flex;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.about-content img {
+    width: 200px;
+    height: 200px;
 }
